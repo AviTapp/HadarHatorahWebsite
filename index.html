@@ -32,15 +32,71 @@
 </head>
 
 <body>
+  <!-- Dropdown Programs -->
+  <ul id="dropdown-programs" class="dropdown-content">
+    <li><a href="#">Full Time</a></li>
+    <li><a href="#">Summer</a></li>
+    <li><a href="#">YeshivaCation</a></li>
+    <li><a href="#">International Shabbaton</a></li>
+    <li><a href="#">Parents Weekend</a></li>
+    <li><a href="#">Apply Online</a></li>
+  </ul>
+  <!-- Dropdown Fundraisers -->
+  <ul id="dropdown-fundraisers" class="dropdown-content">
+    <li><a href="#">Purim Raffle</a></li>
+    <li><a href="#">Anniversary Dinner</a></li>
+    <li><a href="#">Donate</a></li>
+  </ul>
+  <!-- Dropdown More... -->
+  <ul id="dropdown-more" class="dropdown-content">
+    <li><a href="#">Faculty Bios</a></li>
+    <li><a href="#">Alumni Yearbook</a></li>
+    <li><a href="#">Event Photos</a></li>
+    <li><a href="#">Meaningful Websites</a></li>
+    <li><a href="#">MP3 Learning</a></li>
+  </ul>
+  <!-- /Dropdown -->
   <nav class="white" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">Logo</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a class="dropdown-trigger" href="#" data-target="dropdown-programs">Programs<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-trigger" href="#" data-target="dropdown-fundraisers">Fundraisers<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-trigger" href="#" data-target="dropdown-more">More...<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="#">Contact</a></li>
       </ul>
 
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
+      <ul id="nav-mobile" class="collapsible sidenav black-text">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">filter_drama</i>Home</div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">place</i>Programs</div>
+          <div class="collapsible-body"><a href="#"><span>Full Time</span></a></div>
+          <div class="collapsible-body"><a href="#"><span>Summer</span></a></div>
+          <div class="collapsible-body"><a href="#"><span>YeshivaCation</span></a></div>
+          <div class="collapsible-body"><a href="#"><span>International Shabbaton</span></a></div>
+          <div class="collapsible-body"><a href="#"><span>Parents Weekend</span></a></div>
+          <div class="collapsible-body"><a href="#"><span>Apply Online</span></a></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">place</i>Fundraisers</div>
+          <div class="collapsible-body"><a href="#"><span>Purim Raffle</span></a></div>
+          <div class="collapsible-body"><a href="#"><span>Anniversary Dinner</span></a></div>
+          <div class="collapsible-body"><a href="#"><span>Donate</span></a></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">place</i>More...</div>
+          <div class="collapsible-body"><a href="#"><span>Faculty Bios</span></a></div>
+          <div class="collapsible-body"><a href="#"><span>Alumni Yearbook</span></a></div>
+          <div class="collapsible-body"><a href="#"><span>Event Photos</span></a></div>
+          <div class="collapsible-body"><a href="#"><span>Meaningful Websites</span></a></div>
+          <div class="collapsible-body"><a href="#"><span>MP3 Learning</span></a></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">whatshot</i>Contact</div>
+        </li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
@@ -203,7 +259,7 @@
 
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
 
