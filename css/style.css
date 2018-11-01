@@ -77,3 +77,7 @@ footer.page-footer {
 .stamSefard {
   font-family: stamSefard;
 }
+
+.rounded {
+  border-radius: 25px;
+}
