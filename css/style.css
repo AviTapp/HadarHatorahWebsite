@@ -6,6 +6,11 @@
  * Made By MaterializeCSS.com
  */
 
+html,
+nav {
+  background-image: url(https://images.unsplash.com/photo-1532077414699-6841ebb3fac6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=a18923835643f9e869bafd59ae1433bf&auto=format&fit=crop&w=1486&q=80)
+}
+
 nav ul a,
 nav .brand-logo {
   color: #444;
