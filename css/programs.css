@@ -6,7 +6,7 @@
  * Made By MaterializeCSS.com
  */
 
-nav {
+nav, .dropdown-content {
   background-image: url(../img/white-waves.png)
 }
 
