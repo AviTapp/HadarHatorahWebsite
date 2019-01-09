@@ -6,11 +6,12 @@
  * Made By MaterializeCSS.com
  */
 
-nav, .dropdown-content {
+nav,
+.dropdown-content {
   background-image: url(../img/white-waves.png)
 }
 
-#programDescription {
+#mainContent {
   background-image: url(../img/qbkls.png)
 }
 
