@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ישיבת קול יעקב יהודה הדר התורה</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/more.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="194x194" href="favicon-194x194.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="Hadar Hatorah">
+  <meta name="application-name" content="Hadar Hatorah">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+<!--
+***THINGS TO DO***
+
+(_) Write descriptions for:
+      (_) Summer Program
+      (_) YeshivaCation
+      (_) International Shabbaton
+      (_) Parents Weekend
+
+***\/\/\/\/\/***
+-->
+
+<body>
+  <!-- Dropdown Programs -->
+  <ul id="dropdown-programs" class="dropdown-content">
+    <li><a href="#fullTime">Full Time</a></li>
+    <li><a href="#summer">Summer</a></li>
+    <li><a href="#yeshivacation">YeshivaCation</a></li>
+    <li><a href="#shabbaton">International Shabbaton</a></li>
+    <li><a href="#parents">Parents Weekend</a></li>
+    <li><a href="#apply">Apply Online</a></li>
+  </ul>
+  <!-- Dropdown Fundraisers -->
+  <ul id="dropdown-fundraisers" class="dropdown-content">
+    <li><a href="#">Purim Raffle</a></li>
+    <li><a href="#">Anniversary Dinner</a></li>
+    <li><a href="#">Donate</a></li>
+  </ul>
+  <!-- Dropdown More... -->
+  <ul id="dropdown-more" class="dropdown-content">
+    <li><a href="#">Faculty Bios</a></li>
+    <li><a href="#">Alumni Yearbook</a></li>
+    <li><a href="#">Event Photos</a></li>
+    <li><a href="#">Meaningful Websites</a></li>
+    <li><a href="#">MP3 Learning</a></li>
+  </ul>
+  <!-- /Dropdown -->
+  <nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo"><img class="z-depth-1" src="img/logo_sqr.jpg" style="height: 1.5em; border-radius: 10%; vertical-align: text-bottom"></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        <li><a class="dropdown-trigger" href="#" data-target="dropdown-programs">Programs<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-trigger" href="#" data-target="dropdown-fundraisers">Fundraisers<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-trigger" href="#" data-target="dropdown-more">More...<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="collapsible sidenav black-text">
+        <li>
+          <div class="collapsible-header"><i class="material-icons">filter_drama</i>Home</div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">place</i>Programs</div>
+          <div class="collapsible-body"><a href="#fullTime"><span>Full Time</span></a></div>
+          <div class="collapsible-body"><a href="#summer"><span>Summer</span></a></div>
+          <div class="collapsible-body"><a href="#yeshivacation"><span>YeshivaCation</span></a></div>
+          <div class="collapsible-body"><a href="#shabbaton"><span>International Shabbaton</span></a></div>
+          <div class="collapsible-body"><a href="#parents"><span>Parents Weekend</span></a></div>
+          <div class="collapsible-body"><a href="#apply"><span>Apply Online</span></a></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">place</i>Fundraisers</div>
+          <div class="collapsible-body"><a href="#"><span>Purim Raffle</span></a></div>
+          <div class="collapsible-body"><a href="#"><span>Anniversary Dinner</span></a></div>
+          <div class="collapsible-body"><a href="#"><span>Donate</span></a></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">place</i>More...</div>
+          <div class="collapsible-body"><a href="#"><span>Faculty Bios</span></a></div>
+          <div class="collapsible-body"><a href="#"><span>Alumni Yearbook</span></a></div>
+          <div class="collapsible-body"><a href="#"><span>Event Photos</span></a></div>
+          <div class="collapsible-body"><a href="#"><span>Meaningful Websites</span></a></div>
+          <div class="collapsible-body"><a href="#"><span>MP3 Learning</span></a></div>
+        </li>
+        <li>
+          <div class="collapsible-header"><i class="material-icons">whatshot</i>Contact</div>
+        </li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+  <section id="mainContent">
+    <div class="container">
+      <div class="section">
+        <!-- Main Content -->
+        <div class="row">
+          <hr>
+
+          <section id="bios">
+            <h5>Faculty Bios</h5>
+            <p>Quisque congue, mi sed efficitur consectetur, quam ante accumsan nulla, nec molestie turpis metus consequat erat. Ut a turpis eget erat venenatis rutrum ac eget nulla. Praesent porta neque a finibus dapibus. Integer sit amet magna vel urna ornare lobortis. Nulla aliquam suscipit velit et lacinia. Aenean ut pellentesque massa.</p>
+            <hr>
+          </section>
+
+          <section id="alumni">
+            <h5>Alumni Yearbook</h5>
+            <p>Aliquam vel eros facilisis lectus consectetur congue. Proin lacinia aliquet ipsum at dapibus. Aenean aliquam semper dolor. Donec luctus facilisis auctor. Duis posuere iaculis erat quis pretium. Pellentesque fermentum dictum mollis. Proin iaculis lacinia nunc sit amet ultricies. Pellentesque vestibulum nisl sit amet consequat aliquam. Etiam tempus egestas magna, in.</p>
+            <hr>
+          </section>
+
+          <section id="photos">
+            <h5>Event Photos</h5>
+            <p>Nullam non sagittis mi. Proin lobortis et nisi nec aliquet. Aliquam sollicitudin augue augue. Suspendisse consequat massa at purus blandit, dictum tincidunt sapien aliquam. Aenean nunc tortor, pulvinar a bibendum semper, mattis ut ex. Mauris in nibh non nibh efficitur fermentum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec.</p>
+            <hr>
+          </section>
+
+          <section id="websites">
+            <h5>Meaningful Websites</h5>
+            <p>Aliquam vel eros facilisis lectus consectetur congue. Proin lacinia aliquet ipsum at dapibus. Aenean aliquam semper dolor. Donec luctus facilisis auctor. Duis posuere iaculis erat quis pretium. Pellentesque fermentum dictum mollis. Proin iaculis lacinia nunc sit amet ultricies. Pellentesque vestibulum nisl sit amet consequat aliquam. Etiam tempus egestas magna, in.</p>
+            <hr>
+          </section>
+
+          <section id="learning">
+            <h5>MP3 Learning</h5>
+            <p>Aliquam vel eros facilisis lectus consectetur congue. Proin lacinia aliquet ipsum at dapibus. Aenean aliquam semper dolor. Donec luctus facilisis auctor. Duis posuere iaculis erat quis pretium. Pellentesque fermentum dictum mollis. Proin iaculis lacinia nunc sit amet ultricies. Pellentesque vestibulum nisl sit amet consequat aliquam. Etiam tempus egestas magna, in.</p>
+            <hr>
+          </section>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">About Us</h5>
+          <hr>
+          <p class="grey-text text-lighten-4">Hadar Hatorah, the world's first yeshivah for Jewish men with little or no formal background in Jewish knowledge or practice was founded in 1963. Appreciating the student's past journeys through life, Hadar Hatorah addresses the unique concerns of the sincere latecomer.</p>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Programs</h5>
+          <hr>
+          <ul>
+            <li><a class="white-text right btn" href="#!"><strong><em>Apply Online</em></strong></a></li>
+            <li><a class="white-text" href="#!">Summer</a></li>
+            <li><a class="white-text" href="#!">Full Time</a></li>
+
+            <li><a class="white-text" href="#!">YeshivaCation</a></li>
+
+            <li><a class="white-text" href="#!">Parents Weekend</a></li>
+            <li><a class="white-text" href="#!">International Shabbaton</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">More...</h5>
+          <hr>
+          <ul>
+            <li><a class="white-text right btn" href="#!"><strong><em>Donate</em></strong></a></li>
+            <li><a class="white-text" href="#!">Faculty Bios</a></li>
+            <li><a class="white-text" href="#!">Event Photos</a></li>
+            <li><a class="white-text" href="#!">MP3 Learning</a></li>
+            <li><a class="white-text" href="#!">Alumni Yearbook</a></li>
+            <li><a class="white-text" href="#!">Meaningful Websites</a></li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Made by <a class="brown-text text-lighten-3" href="http://www.AndrewTapp.com">Avi Tapp</a>
+        with <a class="brown-text text-lighten-3" href="https://www.ATappCreation.com">A Tapp Creation</a>
+        using <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+</body>
+
+</html>
