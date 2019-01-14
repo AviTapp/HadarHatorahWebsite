@@ -98,3 +98,13 @@ footer.page-footer {
 .plump {
   padding: 1%;
 }
+
+.card .card-content {
+  height: 250px;
+  overflow-y: scroll;
+}
+
+h2 small {
+  float: right;
+  direction: rtl;
+}
