@@ -11,11 +11,13 @@ nav,
   background-image: url(../img/white-waves.png)
 }
 
-#mainContent {
+#mainContent,
+.blocks {
   background-image: url(../img/qbkls.png)
 }
 
-html {
+html,
+.darkprism {
   background-image: url(../img/prism.png)
 }
 
